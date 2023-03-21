@@ -15,13 +15,18 @@
 </head>
 
 <body>
-    <div>
-        <form action="">
+    <div class="lottie">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_fdo8bkv7.json"  background="transparent"  speed="1"  style="width: 800px"  loop autoplay></lottie-player>
+    </div>
+
+    <div class="formulario">
+        <form action="enviando.html" method="GET">
         <label for="nombre" >Nombre</label>
         <input name="nombre" id="nombre" type="text" placeholder="Ingresa tu nombre">
         <br>
         <label for="apellido">Apellido:</label>
-        <input id="apellido" type="text" placeholder="Ingresa ru apellido">
+        <input name="apellido" id="apellido" type="text" placeholder="Ingresa ru apellido">
         <br>
         <button type="submit">AGREGAR</button>
     </form>
